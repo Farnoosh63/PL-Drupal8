@@ -1,0 +1,16 @@
+core:
+  css:
+    theme:
+      scss/main.scss:
+        preprocess: true
+      dest/style.css:
+        preprocess: true
+      dest/main.css:
+        preprocess: true
+  js:
+    dest/script.js:
+      preprocess: true
+  # see all in Drupal's `core/core.libraries.yml`
+  dependencies:
+    - core/jquery
+    - core/drupal
